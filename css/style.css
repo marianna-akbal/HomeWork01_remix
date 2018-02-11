@@ -1,0 +1,64 @@
+.navigation{
+  background-color: white;
+}
+.navbar {
+  width: 100%;
+}
+.navbar-nav a{
+  text-transform: uppercase;
+}
+
+.main-element{
+  width: auto;
+  height: 300px;
+  background-color: black;
+}
+
+.secondary-element{
+  background-color: #E1DEE2;
+  height: auto;
+}
+
+.navbar-collapse{
+  width: 100%;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #164052;
+}
+
+.logotype{
+}
+
+
+
+.apple-logo, .windows-logo, .android-logo{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.left-column, .right-column{
+  margin-top: 20px;
+
+}
+
+.grey-section{
+  background-color: #E1DEE2;
+  height: auto;
+}
+
+/*media_queries*/
+@media only screen and (max-width: 600px) {
+    .logotype {
+      max-width: 100%;
+      height: auto;
+     }
+
+    .left-column, .right-column, .middle-column {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+}
